@@ -18,6 +18,10 @@ To re-create the gateway, you just have to restart the docker container. The pro
 
 See documentation at [grpc-gateway-generator](https://github.com/devsu/grpc-gateway-generator). Make sure the port defined in the configuration matches the port exported when running the container.
 
+## Status
+
+Alpha: It works for development purposes, but not for production yet. (grpc-gateway-generator doesn't work with TLS yet).
+
 ## TODO
 
 - Try to decrease the image size by deleting foldes in /go/src (except {GOPATH}/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis which is needed during proxy generation)
