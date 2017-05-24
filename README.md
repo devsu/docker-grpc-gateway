@@ -24,7 +24,7 @@ Alpha: It works for development purposes, but not for production yet. (grpc-gate
 
 ## TODO
 
-- Try to decrease the image size by deleting foldes in /go/src (except {GOPATH}/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis which is needed during proxy generation)
+- Try to decrease the image size by deleting folders in `/go/src` (except `{GOPATH}/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis` which is needed during proxy generation)
 - Try to find other ways to decrease the image size? (not sure if possible)
 
 ## License and Credits
