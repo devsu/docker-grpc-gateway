@@ -21,7 +21,6 @@ RUN apk update && apk upgrade && apk add --no-cache git && \
   git clone https://github.com/devsu/grpc-gateway-generator --depth 1 /opt/generator && \
   apk del git
 
-RUN mkdir -p /go/src/app
 RUN mkdir -p /opt/generator/config
 RUN mkdir -p /opt/generator/protos
 
